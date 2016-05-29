@@ -13,7 +13,7 @@ int main()
 	struct buf buf_1;
 	int msg_id, size, fd[2], fd_2[2], dzien, godzina;
 	pipe(fd);
-	klucz_1 klucz = 45200;
+	key_1 key = 50000;
 	int pid = fork();
 	if (pid == -1){ perror("Blad przy tworzeniu dziecka\n"); }
 	if (pid == 0)
